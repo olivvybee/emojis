@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="neobread_snuggle" x="0" y="0" width="256" height="256" style="fill:none;"/>
+    <clipPath id="_clip1">
+        <rect x="0" y="0" width="256" height="256"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <g id="Left-bread" serif:id="Left bread">
+            <path id="Crust" d="M110.649,97.655C126.704,97.655 139.738,110.689 139.738,126.744C139.738,133.569 137.383,139.848 133.441,144.812L133.441,189.897C133.441,198.301 126.619,205.123 118.215,205.123L34.145,205.123C25.742,205.123 18.919,198.301 18.919,189.897L18.919,144.638C15.06,139.702 12.758,133.489 12.758,126.744C12.758,110.689 25.793,97.655 41.848,97.655L110.649,97.655Z" style="fill:rgb(209,160,132);stroke:black;stroke-width:15px;"/>
+            <rect id="Shadow" x="73.236" y="143.396" width="52.732" height="8.103" style="fill:rgb(186,133,109);"/>
+            <path id="Slice" d="M32.242,143.7C27.835,140.188 25.008,134.775 25.008,128.707C25.008,118.132 33.593,109.547 44.168,109.547L79.286,109.547C89.861,109.547 98.447,118.132 98.447,128.707C98.447,134.571 95.807,139.824 91.651,143.34L91.651,185.939C91.651,190.076 88.293,193.435 84.155,193.435L39.738,193.435C35.601,193.435 32.242,190.076 32.242,185.939L32.242,143.7Z" style="fill:rgb(252,233,186);"/>
+            <g id="Face">
+                <path id="Mouth" d="M43.086,166.12L48.812,175.747L56.529,166.137L66.087,175.721L77.474,166.148" style="fill:none;stroke:black;stroke-width:5.31px;"/>
+                <g id="Eyes">
+                    <path id="Right-eye" serif:id="Right eye" d="M82.726,138.074L69.513,145.717L82.804,151.491" style="fill:none;stroke:black;stroke-width:6.47px;"/>
+                    <path id="Left-eye" serif:id="Left eye" d="M37.901,138.074L51.115,145.717L37.823,151.491" style="fill:none;stroke:black;stroke-width:6.47px;"/>
+                </g>
+            </g>
+        </g>
+        <g id="Right-bread" serif:id="Right bread">
+            <path id="Crust1" serif:id="Crust" d="M214.152,121.532C230.207,121.532 243.242,134.566 243.242,150.621C243.242,157.446 240.886,163.725 236.944,168.689L236.944,213.775C236.944,222.178 230.122,229 221.719,229L137.648,229C129.245,229 122.423,222.178 122.423,213.775L122.423,168.516C118.563,163.579 116.262,157.367 116.262,150.621C116.262,134.566 129.296,121.532 145.351,121.532L214.152,121.532Z" style="fill:rgb(209,160,132);stroke:black;stroke-width:15px;"/>
+            <rect id="Shadow1" serif:id="Shadow" x="176.74" y="167.273" width="52.732" height="8.103" style="fill:rgb(186,133,109);"/>
+            <path id="Slice1" serif:id="Slice" d="M135.745,167.577C131.338,164.065 128.511,158.652 128.511,152.584C128.511,142.009 137.097,133.424 147.672,133.424L182.79,133.424C193.365,133.424 201.95,142.009 201.95,152.584C201.95,158.449 199.31,163.701 195.155,167.217L195.155,209.816C195.155,213.954 191.796,217.312 187.659,217.312L143.241,217.312C139.104,217.312 135.745,213.954 135.745,209.816L135.745,167.577Z" style="fill:rgb(252,233,186);"/>
+            <g id="Face1" serif:id="Face">
+                <path id="Mouth1" serif:id="Mouth" d="M146.589,189.997L152.316,199.625L160.032,190.014L169.591,199.598L180.977,190.025" style="fill:none;stroke:black;stroke-width:5.31px;"/>
+                <g id="Eyes1" serif:id="Eyes">
+                    <path id="Right-eye1" serif:id="Right eye" d="M171.75,171.589C171.75,171.589 176.777,162.919 187.753,166.96" style="fill:none;stroke:black;stroke-width:7px;"/>
+                    <path id="Left-eye1" serif:id="Left eye" d="M156.813,171.324C156.813,171.324 151.786,162.654 140.809,166.696" style="fill:none;stroke:black;stroke-width:7px;"/>
+                </g>
+            </g>
+        </g>
+        <path id="Heart" d="M100.241,60.968L90.15,50.877C80.47,41.197 80.47,25.478 90.15,15.797C99.831,6.116 115.55,6.116 125.231,15.797L128,18.566L130.769,15.797C140.45,6.116 156.169,6.116 165.85,15.797C175.53,25.478 175.53,41.197 165.85,50.877L155.759,60.968C155.367,61.518 154.923,62.043 154.43,62.536L136.889,80.076C134.439,82.527 131.215,83.737 128,83.706C124.785,83.737 121.561,82.527 119.111,80.076L101.57,62.536C101.077,62.043 100.633,61.518 100.241,60.968Z" style="fill:rgb(239,124,148);stroke:black;stroke-width:15px;stroke-linejoin:miter;stroke-miterlimit:5;"/>
+    </g>
+</svg>

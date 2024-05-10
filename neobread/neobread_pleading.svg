@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="neobread_pleading" x="0" y="0" width="256" height="256" style="fill:none;"/>
+    <path id="Crust" d="M192.734,26.885C222.946,26.885 247.473,51.413 247.473,81.624C247.473,94.467 243.041,106.282 235.623,115.623L235.623,200.464C235.623,216.277 222.785,229.115 206.972,229.115L48.771,229.115C32.958,229.115 20.12,216.277 20.12,200.464L20.12,115.297C12.857,106.008 8.527,94.318 8.527,81.624C8.527,51.413 33.054,26.885 63.266,26.885L192.734,26.885Z" style="fill:rgb(209,160,132);stroke:black;stroke-width:15px;"/>
+    <rect id="Shadow" x="122.332" y="112.959" width="105.66" height="15.248" style="fill:rgb(186,133,109);"/>
+    <path id="Slice" d="M42.009,112.691C33.24,105.704 27.616,94.934 27.616,82.861C27.616,61.82 44.698,44.738 65.738,44.738L135.611,44.738C156.652,44.738 173.734,61.82 173.734,82.861C173.734,94.528 168.481,104.979 160.213,111.974L160.213,196.732C160.213,204.964 153.53,211.647 145.299,211.647L56.924,211.647C48.692,211.647 42.009,204.964 42.009,196.732L42.009,112.691Z" style="fill:rgb(252,233,186);"/>
+    <g id="Face">
+        <path id="Mouth" d="M79.007,168.781L94.923,153.296L114.657,169.191" style="fill:none;stroke:black;stroke-width:10px;"/>
+        <g id="Eyes">
+            <g id="Right-eye" serif:id="Right eye">
+                <circle id="Eye-white" serif:id="Eye white" cx="127.574" cy="122.854" r="23.779" style="fill:white;"/>
+                <circle id="Pupil" cx="124.512" cy="119.83" r="20.392"/>
+                <path id="Eye-reflection-top" serif:id="Eye reflection top" d="M113.498,108.977C117.525,104.949 123.325,104.208 126.44,107.324C129.556,110.439 128.815,116.239 124.787,120.266C120.76,124.294 114.96,125.035 111.845,121.919C108.729,118.804 109.47,113.004 113.498,108.977Z" style="fill:white;"/>
+                <path id="Eye-reflection-bottom" serif:id="Eye reflection bottom" d="M134.436,124.742C134.436,124.742 133.237,128.878 128.995,129.783" style="fill:none;stroke:rgb(151,151,151);stroke-width:8px;"/>
+            </g>
+            <g id="Left-eye" serif:id="Left eye">
+                <circle id="Eye-white1" serif:id="Eye white" cx="66.987" cy="122.854" r="23.779" style="fill:white;"/>
+                <circle id="Pupil1" serif:id="Pupil" cx="63.926" cy="119.83" r="20.392"/>
+                <path id="Eye-reflection-top1" serif:id="Eye reflection top" d="M52.911,108.977C56.939,104.949 62.738,104.208 65.854,107.324C68.969,110.439 68.229,116.239 64.201,120.266C60.173,124.294 54.374,125.035 51.258,121.919C48.143,118.804 48.883,113.004 52.911,108.977Z" style="fill:white;"/>
+                <path id="Eye-reflection-bottom1" serif:id="Eye reflection bottom" d="M73.85,124.742C73.85,124.742 72.651,128.878 68.408,129.783" style="fill:none;stroke:rgb(151,151,151);stroke-width:8px;"/>
+            </g>
+        </g>
+        <g id="Eyebrows">
+            <path id="Right-eyebrow" serif:id="Right eyebrow" d="M116.303,78.613C116.303,78.613 120.458,91.268 140.467,85.602" style="fill:none;stroke:black;stroke-width:10px;"/>
+            <path id="Left-eyebrow" serif:id="Left eyebrow" d="M77.93,78.613C77.93,78.613 73.775,91.268 53.765,85.602" style="fill:none;stroke:black;stroke-width:10px;"/>
+        </g>
+    </g>
+</svg>

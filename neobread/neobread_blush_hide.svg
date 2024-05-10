@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="neobread_blush_hide" x="0" y="0" width="256" height="256" style="fill:none;"/>
+    <path id="Crust" d="M192.734,26.885C222.946,26.885 247.473,51.413 247.473,81.624C247.473,94.467 243.041,106.282 235.623,115.623L235.623,200.464C235.623,216.277 222.785,229.115 206.972,229.115L48.771,229.115C32.958,229.115 20.12,216.277 20.12,200.464L20.12,115.297C12.857,106.008 8.527,94.318 8.527,81.624C8.527,51.413 33.054,26.885 63.266,26.885L192.734,26.885Z" style="fill:rgb(209,160,132);stroke:black;stroke-width:15px;"/>
+    <rect id="Shadow" x="122.332" y="112.959" width="105.66" height="15.248" style="fill:rgb(186,133,109);"/>
+    <path id="Slice" d="M42.009,112.691C33.24,105.704 27.616,94.934 27.616,82.861C27.616,61.82 44.698,44.738 65.738,44.738L135.611,44.738C156.652,44.738 173.734,61.82 173.734,82.861C173.734,94.528 168.481,104.979 160.213,111.974L160.213,196.732C160.213,204.964 153.53,211.647 145.299,211.647L56.924,211.647C48.692,211.647 42.009,204.964 42.009,196.732L42.009,112.691Z" style="fill:rgb(252,233,186);"/>
+    <path id="Mouth" d="M76.277,166.311L91.857,151.152L111.175,166.712" style="fill:none;stroke:black;stroke-width:10px;"/>
+    <ellipse id="Blush" cx="96.929" cy="110.779" rx="59.36" ry="39.358" style="fill:url(#_Radial1);"/>
+    <g id="Blush-lines" serif:id="Blush lines">
+        <path d="M87.557,87.495C89.967,88.886 90.793,91.971 89.402,94.38L67.556,132.219C66.165,134.628 63.08,135.455 60.671,134.064C58.262,132.673 57.435,129.588 58.826,127.179L80.672,89.34C82.063,86.931 85.148,86.104 87.557,87.495Z" style="fill:rgb(238,73,25);"/>
+        <path d="M110.372,87.495C112.781,88.886 113.608,91.971 112.217,94.38L90.371,132.219C88.98,134.628 85.895,135.455 83.485,134.064C81.076,132.673 80.249,129.588 81.64,127.179L103.487,89.34C104.878,86.931 107.963,86.104 110.372,87.495Z" style="fill:rgb(238,73,25);"/>
+        <path d="M133.186,87.495C135.596,88.886 136.422,91.971 135.031,94.38L113.185,132.219C111.794,134.628 108.709,135.455 106.3,134.064C103.891,132.673 103.064,129.588 104.455,127.179L126.301,89.34C127.692,86.931 130.777,86.104 133.186,87.495Z" style="fill:rgb(238,73,25);"/>
+    </g>
+    <path id="Right-hand" serif:id="Right hand" d="M129.728,213.235L123.02,113.169C122.364,101.606 131.257,94.979 142.82,94.323C154.182,93.679 163.93,102.381 164.574,113.743L171.265,210.881" style="fill:rgb(209,160,132);stroke:black;stroke-width:10px;stroke-linecap:butt;"/>
+    <path id="Left-hand" serif:id="Left hand" d="M67.095,212.889L73.803,112.823C74.458,101.26 65.565,94.633 54.002,93.977C42.64,93.333 32.893,102.035 32.249,113.397L25.558,210.534" style="fill:rgb(209,160,132);stroke:black;stroke-width:10px;stroke-linecap:butt;"/>
+    <defs>
+        <radialGradient id="_Radial1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(59.3599,1.33268e-13,-2.00995e-13,39.3582,96.9286,110.779)"><stop offset="0" style="stop-color:rgb(252,101,51);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(248,138,58);stop-opacity:0"/></radialGradient>
+    </defs>
+</svg>

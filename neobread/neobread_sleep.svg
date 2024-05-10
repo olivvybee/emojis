@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="neobread_sleep" x="0" y="0" width="256" height="256" style="fill:none;"/>
+    <path id="Crust" d="M192.734,26.885C222.946,26.885 247.473,51.413 247.473,81.624C247.473,94.467 243.041,106.282 235.623,115.623L235.623,200.464C235.623,216.277 222.785,229.115 206.972,229.115L48.771,229.115C32.958,229.115 20.12,216.277 20.12,200.464L20.12,115.297C12.857,106.008 8.527,94.318 8.527,81.624C8.527,51.413 33.054,26.885 63.266,26.885L192.734,26.885Z" style="fill:rgb(209,160,132);stroke:black;stroke-width:15px;"/>
+    <rect id="Shadow" x="122.332" y="112.959" width="105.66" height="15.248" style="fill:rgb(186,133,109);"/>
+    <path id="Slice" d="M42.009,112.691C33.24,105.704 27.616,94.934 27.616,82.861C27.616,61.82 44.698,44.738 65.738,44.738L135.611,44.738C156.652,44.738 173.734,61.82 173.734,82.861C173.734,94.528 168.481,104.979 160.213,111.974L160.213,196.732C160.213,204.964 153.53,211.647 145.299,211.647L56.924,211.647C48.692,211.647 42.009,204.964 42.009,196.732L42.009,112.691Z" style="fill:rgb(252,233,186);"/>
+    <g id="Face">
+        <g id="Mouth">
+            <path id="Mouth-backgorund" serif:id="Mouth backgorund" d="M124.317,168.565C124.317,157.498 115.332,148.513 104.265,148.513L88.313,148.513C77.106,148.513 68.007,157.611 68.007,168.819C68.007,175.23 73.213,180.436 79.625,180.436L112.446,180.436C118.998,180.436 124.317,175.117 124.317,168.565Z" style="fill:rgb(160,25,25);"/>
+            <path id="Tongue" d="M93.579,180.436C92.946,179.253 92.604,177.99 92.604,176.678C92.604,170.013 101.441,164.602 112.325,164.602C116.81,164.602 120.947,165.521 124.262,167.067C124.299,167.562 124.317,168.061 124.317,168.565C124.317,175.117 118.998,180.436 112.446,180.436L93.579,180.436Z" style="fill:rgb(216,72,72);"/>
+        </g>
+        <path id="Drool" d="M132.033,173.42C132.033,168.945 128.4,165.312 123.925,165.312C119.451,165.312 115.818,168.945 115.818,173.42L115.818,195.944C115.818,200.419 119.451,204.052 123.925,204.052C128.4,204.052 132.033,200.419 132.033,195.944L132.033,173.42Z" style="fill:rgb(91,206,250);fill-opacity:0.9;"/>
+        <g id="Eyes">
+            <path id="Right-eye" serif:id="Right eye" d="M141.384,116.353L113.88,112.821" style="fill:none;stroke:black;stroke-width:12px;"/>
+            <path id="Left-eye" serif:id="Left eye" d="M52.946,116.353L80.45,112.821" style="fill:none;stroke:black;stroke-width:12px;"/>
+        </g>
+    </g>
+    <path id="Bottom-Z" serif:id="Bottom Z" d="M30.204,66.12L52.34,66.12L29.076,96.308L53.328,96.38" style="fill:none;stroke:black;stroke-width:15px;"/>
+    <path d="M30.204,66.12L52.34,66.12L29.076,96.308L53.328,96.38" style="fill:none;stroke:rgb(235,235,235);stroke-width:5px;stroke-miterlimit:2;"/>
+    <path id="Top-Z" serif:id="Top Z" d="M15.359,16.301L37.495,16.301L14.231,46.489L38.483,46.562" style="fill:none;stroke:black;stroke-width:15px;"/>
+    <path d="M15.359,16.301L37.495,16.301L14.231,46.489L38.483,46.562" style="fill:none;stroke:rgb(235,235,235);stroke-width:5px;stroke-miterlimit:2;"/>
+</svg>

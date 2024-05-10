@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="neobread_lego" x="0" y="0" width="256" height="256" style="fill:none;"/>
+    <path id="Crust" d="M192.734,26.885C222.946,26.885 247.473,51.413 247.473,81.624C247.473,94.467 243.041,106.282 235.623,115.623L235.623,200.464C235.623,216.277 222.785,229.115 206.972,229.115L48.771,229.115C32.958,229.115 20.12,216.277 20.12,200.464L20.12,115.297C12.857,106.008 8.527,94.318 8.527,81.624C8.527,51.413 33.054,26.885 63.266,26.885L192.734,26.885Z" style="fill:rgb(209,160,132);stroke:black;stroke-width:15px;"/>
+    <rect id="Shadow" x="122.332" y="112.959" width="105.66" height="15.248" style="fill:rgb(186,133,109);"/>
+    <path id="Slice" d="M42.009,112.691C33.24,105.704 27.616,94.934 27.616,82.861C27.616,61.82 44.698,44.738 65.738,44.738L135.611,44.738C156.652,44.738 173.734,61.82 173.734,82.861C173.734,94.528 168.481,104.979 160.213,111.974L160.213,196.732C160.213,204.964 153.53,211.647 145.299,211.647L56.924,211.647C48.692,211.647 42.009,204.964 42.009,196.732L42.009,112.691Z" style="fill:rgb(252,233,186);"/>
+    <g id="Eyes">
+        <g id="Right-eye" serif:id="Right eye">
+            <circle id="Eye-white" serif:id="Eye white" cx="130.968" cy="115.715" r="23.779" style="fill:white;"/>
+            <circle id="Pupil" cx="127.906" cy="112.691" r="20.392"/>
+            <path id="Eye-reflection-top" serif:id="Eye reflection top" d="M116.892,101.838C120.92,97.81 126.719,97.069 129.835,100.185C132.95,103.3 132.21,109.1 128.182,113.127C124.154,117.155 118.355,117.896 115.239,114.78C112.124,111.665 112.864,105.865 116.892,101.838Z" style="fill:white;"/>
+            <path id="Eye-reflection-bottom" serif:id="Eye reflection bottom" d="M137.831,117.603C137.831,117.603 136.632,121.739 132.389,122.644" style="fill:none;stroke:rgb(151,151,151);stroke-width:8px;"/>
+        </g>
+        <g id="Left-eye" serif:id="Left eye">
+            <circle id="Eye-white1" serif:id="Eye white" cx="70.382" cy="115.715" r="23.779" style="fill:white;"/>
+            <circle id="Pupil1" serif:id="Pupil" cx="67.32" cy="112.691" r="20.392"/>
+            <path id="Eye-reflection-top1" serif:id="Eye reflection top" d="M56.306,101.838C60.333,97.81 66.133,97.069 69.248,100.185C72.364,103.3 71.623,109.1 67.595,113.127C63.568,117.155 57.768,117.896 54.653,114.78C51.537,111.665 52.278,105.865 56.306,101.838Z" style="fill:white;"/>
+            <path id="Eye-reflection-bottom1" serif:id="Eye reflection bottom" d="M77.244,117.603C77.244,117.603 76.045,121.739 71.803,122.644" style="fill:none;stroke:rgb(151,151,151);stroke-width:8px;"/>
+        </g>
+    </g>
+    <g id="Brick">
+        <path id="Brick-outline" serif:id="Brick outline" d="M143.976,147.514L161.933,154.31L161.812,154.355L161.812,204.964L97.697,229.275L33.582,204.964L33.582,154.355L33.462,154.31L51.418,147.514C51.037,146.936 50.834,146.327 50.834,145.697C50.834,142.009 57.833,139.014 66.455,139.014C68.598,139.014 70.642,139.199 72.502,139.534L82.591,135.716C82.255,135.171 82.076,134.599 82.076,134.009C82.076,130.321 89.076,127.326 97.697,127.326C106.319,127.326 113.318,130.321 113.318,134.009C113.318,134.599 113.139,135.171 112.804,135.716L122.892,139.534C124.752,139.199 126.796,139.014 128.94,139.014C137.561,139.014 144.561,142.009 144.561,145.697C144.561,146.327 144.357,146.936 143.976,147.514Z" style="fill:none;stroke:black;stroke-width:15px;"/>
+        <path id="Front-left-face" serif:id="Front left face" d="M97.697,178.621L33.582,154.31L33.582,204.964L97.697,229.275L97.697,178.621Z" style="fill:rgb(101,23,129);"/>
+        <path id="Front-right-face" serif:id="Front right face" d="M97.697,178.621L161.812,154.31L161.812,204.964L97.697,229.275L97.697,178.621Z" style="fill:rgb(150,35,192);"/>
+        <path id="Top-face" serif:id="Top face" d="M97.697,129.999L161.933,154.31L97.697,178.621L33.462,154.31L97.697,129.999Z" style="fill:rgb(184,72,231);"/>
+        <g id="Top-stud" serif:id="Top stud">
+            <path id="Shading" d="M113.318,142.622C113.318,146.31 106.319,149.305 97.697,149.305C89.076,149.305 82.076,146.31 82.076,142.622L82.076,134.009L113.318,134.009L113.318,142.622Z" style="fill:rgb(101,23,129);"/>
+            <ellipse id="Stud-top" serif:id="Stud top" cx="97.697" cy="134.009" rx="15.621" ry="6.683" style="fill:rgb(171,21,234);"/>
+        </g>
+        <g id="Left-stud" serif:id="Left stud">
+            <path id="Shading1" serif:id="Shading" d="M82.076,154.309C82.076,157.998 75.076,160.993 66.455,160.993C57.833,160.993 50.834,157.998 50.834,154.309L50.834,145.697L82.076,145.697L82.076,154.309Z" style="fill:rgb(101,23,129);"/>
+            <ellipse id="Stud-top1" serif:id="Stud top" cx="66.455" cy="145.697" rx="15.621" ry="6.683" style="fill:rgb(171,21,234);"/>
+        </g>
+        <g id="Right-stud" serif:id="Right stud">
+            <path id="Shading2" serif:id="Shading" d="M144.561,154.309C144.561,157.998 137.561,160.993 128.94,160.993C120.318,160.993 113.318,157.998 113.318,154.309L113.318,145.697L144.561,145.697L144.561,154.309Z" style="fill:rgb(101,23,129);"/>
+            <ellipse id="Stud-top2" serif:id="Stud top" cx="128.94" cy="145.697" rx="15.621" ry="6.683" style="fill:rgb(171,21,234);"/>
+        </g>
+        <g id="Bottom-stud" serif:id="Bottom stud">
+            <path id="Shading3" serif:id="Shading" d="M113.318,165.727C113.318,169.416 106.319,172.41 97.697,172.41C89.076,172.41 82.076,169.416 82.076,165.727L82.076,157.115L113.318,157.115L113.318,165.727Z" style="fill:rgb(101,23,129);"/>
+            <ellipse id="Stud-top3" serif:id="Stud top" cx="97.697" cy="156.823" rx="15.621" ry="6.683" style="fill:rgb(171,21,234);"/>
+        </g>
+    </g>
+    <path id="Right-hand" serif:id="Right hand" d="M151.779,225.367L132.142,205.73C123.953,197.541 123.953,184.243 132.142,176.054C140.189,168.007 153.255,168.007 161.302,176.054L181.198,195.949" style="fill:rgb(209,160,132);stroke:black;stroke-width:10px;stroke-linecap:butt;"/>
+    <path id="Left-hand" serif:id="Left hand" d="M47.21,226.367L66.847,206.73C75.037,198.541 75.037,185.243 66.847,177.054C58.8,169.007 45.734,169.007 37.687,177.054L17.792,196.949" style="fill:rgb(209,160,132);stroke:black;stroke-width:10px;stroke-linecap:butt;"/>
+</svg>
