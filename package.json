@@ -1,0 +1,29 @@
+{
+  "name": "emojis",
+  "version": "1.0.0",
+  "description": "Various sets of emojis.",
+  "scripts": {
+    "generate-pngs": "tsx ./scripts/generatePNGs.ts",
+    "generate-manifest": "tsx ./scripts/generateManifest.ts",
+    "generate-meta": "tsx ./scripts/generateMeta.ts",
+    "generate-preview": "tsx ./scripts/generatePreview.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/archiver": "^6.0.2",
+    "@types/cli-progress": "^3.11.5",
+    "@types/node": "^20.11.30",
+    "@types/yargs": "^17.0.32",
+    "archiver": "^7.0.1",
+    "canvas": "^2.11.2",
+    "cli-progress": "^3.12.0",
+    "nan": "^2.19.0",
+    "svg2img": "^1.0.0-beta.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2",
+    "yargs": "^17.7.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
