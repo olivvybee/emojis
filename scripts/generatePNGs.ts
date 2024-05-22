@@ -4,18 +4,10 @@ import fs from 'fs';
 import svg2imgWithCallback, { svg2imgOptions } from 'svg2img';
 import yargs from 'yargs';
 import cliProgress, { Presets } from 'cli-progress';
+import { getSvgDirectories } from './utils';
 
 const DEFAULT_SIZE = 256;
-
-const gitignorePath = path.resolve('.', '.gitignore');
-const gitignoreItems = fs.readFileSync(gitignorePath, 'utf-8').split('\n');
-
-const parentDir = path.resolve('.');
-const ALL_DIRECTORIES = fs
-  .readdirSync(parentDir)
-  .filter((filename) => fs.statSync(filename).isDirectory())
-  .filter((filename) => !gitignoreItems.includes(filename))
-  .filter((name) => !name.startsWith('.') && name !== 'scripts');
+const ALL_DIRECTORIES = getSvgDirectories();
 
 const svg2img = (svg: string, options?: svg2imgOptions): Promise<any> =>
   new Promise((resolve, reject) =>
