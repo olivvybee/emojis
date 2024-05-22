@@ -4,8 +4,8 @@
   "description": "Various sets of emojis.",
   "scripts": {
     "generate-pngs": "tsx ./scripts/generatePNGs.ts",
+    "generate-meta": "tsx ./scripts/generateMetaJson.ts",
     "generate-manifest": "tsx ./scripts/generateManifest.ts",
-    "generate-meta": "tsx ./scripts/generateMeta.ts",
     "generate-preview": "tsx ./scripts/generatePreview.ts"
   },
   "license": "MIT",
