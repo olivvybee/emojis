@@ -31,3 +31,6 @@ jobs:
 
       - name: Generate hi-res PNGs
         run: npm run generate-pngs -- --size 2048
+
+      - name: Create zip archives
+        run: ./scripts/create-zip-archives.sh

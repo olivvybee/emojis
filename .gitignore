@@ -2,6 +2,6 @@
 node_modules
 png
 tar
-*.zip
+zip
 manifest.json
 filemap.json
