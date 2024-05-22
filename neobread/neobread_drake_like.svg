@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="neobread_drake_like" x="0" y="0" width="256" height="256" style="fill:none;"/>
+    <clipPath id="_clip1">
+        <rect x="0" y="0" width="256" height="256"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <path id="Crust" d="M11.267,26.885C-18.945,26.885 -43.472,51.413 -43.472,81.624C-43.472,94.467 -39.04,106.282 -31.622,115.623L-31.622,200.464C-31.622,216.277 -18.784,229.115 -2.971,229.115L155.23,229.115C171.043,229.115 183.881,216.277 183.881,200.464L183.881,115.297C191.144,106.008 195.474,94.318 195.474,81.624C195.474,51.413 170.947,26.885 140.735,26.885L11.267,26.885Z" style="fill:rgb(209,160,132);stroke:black;stroke-width:15px;"/>
+        <rect id="Shadow" x="-23.991" y="112.959" width="105.66" height="15.248" style="fill:rgb(186,133,109);"/>
+        <path id="Slice" d="M161.991,112.691C170.761,105.704 176.385,94.934 176.385,82.861C176.385,61.82 159.303,44.738 138.262,44.738L68.39,44.738C47.349,44.738 30.267,61.82 30.267,82.861C30.267,94.528 35.52,104.979 43.788,111.974L43.788,196.732C43.788,204.964 50.471,211.647 58.702,211.647L147.077,211.647C155.308,211.647 161.991,204.964 161.991,196.732L161.991,112.691Z" style="fill:rgb(252,233,186);"/>
+        <g id="Face">
+            <path id="Mouth" d="M136.411,155.72L125.635,173.837L111.115,155.752L93.128,173.787L71.701,155.773" style="fill:none;stroke:black;stroke-width:10px;"/>
+            <g id="Eyes">
+                <path id="Right-eye" serif:id="Right eye" d="M93.561,111.888C93.973,120.729 88.353,129.777 78.7,129.964C69.634,130.14 60.98,123.051 60.944,111.134" style="fill:none;stroke:black;stroke-width:12px;"/>
+                <path id="Left-eye" serif:id="Left eye" d="M119.36,111.859C118.949,120.699 124.568,129.748 134.222,129.935C143.287,130.11 151.941,123.022 151.978,111.105" style="fill:none;stroke:black;stroke-width:12px;"/>
+            </g>
+        </g>
+        <path id="Hand" d="M210.115,204.773L210.115,227.129C210.115,235.873 203.016,242.972 194.272,242.972L159.317,242.972C150.574,242.972 143.475,235.873 143.475,227.129L143.475,195.445C143.475,188.219 148.322,182.117 154.939,180.216L154.939,165.602C154.939,159.719 159.716,154.942 165.599,154.942C171.482,154.942 176.259,159.719 176.259,165.602L176.259,179.602L234.888,179.602C241.834,179.602 247.473,185.241 247.473,192.187C247.473,199.133 241.834,204.773 234.888,204.773L210.115,204.773Z" style="fill:rgb(186,133,109);stroke:black;stroke-width:10px;"/>
+    </g>
+</svg>
