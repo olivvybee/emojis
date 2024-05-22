@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "generate-pngs": "tsx ./scripts/generatePNGs.ts",
-    "generate-meta": "tsx ./scripts/generateMetaJson.ts",
-    "generate-manifest": "tsx ./scripts/generateManifest.ts",
-    "generate-preview": "tsx ./scripts/generatePreview.ts"
+    "create-tars": "./scripts/create-tar-archives.sh",
+    "create-zips": "./scripts/create-zip-archives.sh",
+    "generate-meta": "tsx ./scripts/generateMetaJson.ts"
   },
   "license": "MIT",
   "dependencies": {
