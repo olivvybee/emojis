@@ -23,5 +23,8 @@ jobs:
       - name: Generate PNGs
         run: npm run generate-pngs
 
+      - name: Create tar archives
+        run: ./scripts/create-tar-archives.sh
+
       - name: Generate hi-res PNGs
         run: npm run generate-pngs -- --size 2048
