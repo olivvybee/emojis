@@ -77,7 +77,11 @@ const run = async ({
 }: RunArgs) => {
   const generationParams = directories.flatMap((dir) => {
     const svgDir = path.resolve('.', dir);
-    const pngDir = path.resolve('.', 'png', dir);
+    const pngDir = path.resolve(
+      '.',
+      'png',
+      size === DEFAULT_SIZE ? dir : `${dir}-${size}`
+    );
     return getParamsForSvgs(svgDir, pngDir, size);
   });
 
