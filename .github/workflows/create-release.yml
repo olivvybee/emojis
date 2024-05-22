@@ -20,6 +20,12 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Find changes
+        run: npm run find-changes
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REF: ${{ github.ref_name }}
+
       - name: Generate PNGs
         run: npm run generate-pngs
 
@@ -35,9 +41,9 @@ jobs:
       - name: Create zip archives
         run: npm run create-zips
 
-      - name: Create release
-        uses: softprops/action-gh-release@v2
-        with:
-          files: |
-            tar/**
-            zip/**
+      # - name: Create release
+      #   uses: softprops/action-gh-release@v2
+      #   with:
+      #     files: |
+      #       tar/**
+      #       zip/**

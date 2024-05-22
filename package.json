@@ -7,10 +7,12 @@
     "generate-pngs": "tsx ./scripts/generatePNGs.ts",
     "create-tars": "./scripts/create-tar-archives.sh",
     "create-zips": "./scripts/create-zip-archives.sh",
-    "generate-meta": "tsx ./scripts/generateMetaJson.ts"
+    "generate-meta": "tsx ./scripts/generateMetaJson.ts",
+    "find-changes": "tsx ./scripts/findChanges.ts"
   },
   "license": "MIT",
   "dependencies": {
+    "@actions/github": "^6.0.0",
     "@types/archiver": "^6.0.2",
     "@types/cli-progress": "^3.11.5",
     "@types/node": "^20.11.30",
