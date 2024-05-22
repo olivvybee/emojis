@@ -1,17 +1,18 @@
 import path from 'path';
 import fs from 'fs';
 
-import svg2imgWithCallback, { svg2imgOptions } from 'svg2img';
 import yargs from 'yargs';
 import cliProgress, { Presets } from 'cli-progress';
-import { getSvgDirectories } from './utils';
+
+import { getSvgDirectories, svg2img } from './utils.js';
+import { svg2imgOptions } from 'svg2img';
 
 const DEFAULT_SIZE = 256;
 const ALL_DIRECTORIES = getSvgDirectories();
 
-const svg2img = (svg: string, options?: svg2imgOptions): Promise<any> =>
+const convertSvg = (svg: string, options?: svg2imgOptions): Promise<any> =>
   new Promise((resolve, reject) =>
-    svg2imgWithCallback(svg, options, (err, buffer) => {
+    svg2img(svg, options, (err, buffer) => {
       if (err) {
         reject(err);
       }
@@ -26,7 +27,7 @@ interface GenerateArgs {
 }
 
 const generate = async ({ svgPath, pngPath, size }: GenerateArgs) => {
-  const buffer = await svg2img(svgPath, {
+  const buffer = await convertSvg(svgPath, {
     resvg: {
       fitTo: {
         mode: 'width',

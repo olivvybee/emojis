@@ -2,6 +2,7 @@
   "name": "emojis",
   "version": "1.0.0",
   "description": "Various sets of emojis.",
+  "type": "module",
   "scripts": {
     "generate-pngs": "tsx ./scripts/generatePNGs.ts",
     "generate-meta": "tsx ./scripts/generateMetaJson.ts",
