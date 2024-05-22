@@ -1,0 +1,27 @@
+name: Create Release
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate PNGs
+        run: npm run generate-pngs
+
+      - name: Generate hi-res PNGs
+        run: npm run generate-pngs -- --size 2048
