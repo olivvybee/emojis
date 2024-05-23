@@ -17,7 +17,7 @@ of the emojis, were all created by [Volpeon](https://volpeon.ink/emojis/).
 Blobbee was the first of these packs, and was originally designed to just be
 pride flag bees but was then expanded to become a full set.
 
-![A grid of bee emojis making various expressions.](./previews/preview-blobbee.png)
+![A grid of bee emojis making various expressions.](https://github.com/olivvybee/emojis/releases/latest/download/preview-blobbee.png)
 
 ### Neobread
 
@@ -25,7 +25,7 @@ Neobread started as a single emoji, `neobread_woozy`, inspired by
 [a fedi post](https://meow.woem.cat/notes/9qq5pizgf0bff23a), which I then
 expanded to contain the same emojis as blobbee due to popular demand.
 
-![A grid of bread emojis making various expressions.](./previews/preview-neobread.png)
+![A grid of bread emojis making various expressions.](https://github.com/olivvybee/emojis/releases/latest/download/preview-neobread.png)
 
 ### NeoDLR
 
@@ -34,21 +34,21 @@ like
 [DLR rolling stock](https://en.wikipedia.org/wiki/Docklands_Light_Railway_rolling_stock),
 also inspired by [a fedi post](https://meow.woem.cat/notes/9tkftowim4l7k08p).
 
-![A grid of red and black train emojis making various expressions.](./previews/preview-neoDLR.png)
+![A grid of red and black train emojis making various expressions.](https://github.com/olivvybee/emojis/releases/latest/download/preview-neoDLR.png)
 
 ### Neocat
 
 Neocat was originally created by [Volpeon](https://volpeon.ink/emojis/). These
 are just a few additions I made while creating the other sets.
 
-![A grid of cat emojis making various expressions.](./previews/preview-neocat.png)
+![A grid of cat emojis making various expressions.](https://github.com/olivvybee/emojis/releases/latest/download/preview-neocat.png)
 
 ### Neofox
 
 Neofox was originally created by [Volpeon](https://volpeon.ink/emojis/). These
 are just a few additions I made while creating the other sets.
 
-![A grid of fox emojis making various expressions.](./previews/preview-neofox.png)
+![A grid of fox emojis making various expressions.](https://github.com/olivvybee/emojis/releases/latest/download/preview-neofox.png)
 
 ### Fox
 
@@ -57,7 +57,7 @@ Fox is based on the
 and started with `fox_plead_collar` based on
 [a fedi post](https://fox.nexus/@theresnotime/112418372868714476).
 
-![A grid of fox emojis making various expressions.](./previews/preview-fox.png)
+![A grid of fox emojis making various expressions.](https://github.com/olivvybee/emojis/releases/latest/download/preview-fox.png)
 
 ## Adding to a fedi instance
 

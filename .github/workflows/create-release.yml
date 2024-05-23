@@ -30,8 +30,8 @@ jobs:
       - name: Generate PNGs
         run: npm run generate-pngs
 
-      - name: Generate preview
-        run: npm run generate-preview -- --only-updates
+      - name: Generate previews
+        run: npm run generate-previews
         if: ${{ steps.find-changes.outputs.hasSvgChanges == 'true' }}
 
       - name: Create tar archives
@@ -53,4 +53,4 @@ jobs:
           files: |
             tar/**
             zip/**
-            preview.png
+            previews/**

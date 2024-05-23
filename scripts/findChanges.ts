@@ -15,9 +15,10 @@ if (!GITHUB_REF) {
 }
 
 const tagName = GITHUB_REF.replace('refs/tags/', '');
+const normalisedTagName = tagName.split('/').join('-');
 
 const repoUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}`;
-const previewUrl = `${repoUrl}/releases/download/${tagName}/preview.png`;
+const previewUrl = `${repoUrl}/releases/download/${tagName}/preview-updates-${normalisedTagName}.png`;
 
 enum ChangeType {
   added = 'Added',
@@ -117,11 +118,7 @@ const run = async () => {
     return;
   }
 
-  const normalisedRef = GITHUB_REF.replace('refs/tags/', '')
-    .split('/')
-    .join('-');
-
-  const changesDir = path.resolve('.', `updates-${normalisedRef}`);
+  const changesDir = path.resolve('.', `updates-${normalisedTagName}`);
   fs.mkdirSync(changesDir, { recursive: true });
 
   changedSvgs.forEach((filePath) => {
