@@ -19,7 +19,17 @@ const tagName = GITHUB_REF.replace('refs/tags/', '');
 const repoUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}`;
 const previewUrl = `${repoUrl}/releases/download/${tagName}/preview.png`;
 
-const buildRelaseNotes = (changeList: string, hasPreview: boolean) => `
+enum ChangeType {
+  added = 'Added',
+  updated = 'Updated',
+}
+
+interface EmojiChange {
+  name: string;
+  change: ChangeType;
+}
+
+const buildRelaseNotes = (changeList: string, changedEmojis: EmojiChange[]) => `
 <details>
 <summary>
 <h2>Changes in this release</h2>
@@ -30,12 +40,17 @@ ${changeList}
 
 *See the [README](${repoUrl}) for usage instructions.*
 
+## New and updated emojis in this release
+
 ${
-  hasPreview
-    ? `![A grid of emojis that were changed in this release](${previewUrl})`
-    : ''
-}
-`;
+  changedEmojis.length
+    ? `
+${changedEmojis.map(({ name, change }) => `- ${change}: ${name}`).join('\n')}
+
+![A grid of emojis that were changed in this release](${previewUrl})
+`
+    : 'None.'
+}`;
 
 const run = async () => {
   const octokit = getOctokit(GITHUB_TOKEN);
@@ -61,15 +76,24 @@ const run = async () => {
 
   const files = changes.files || [];
 
-  const changedSvgs = files
-    .filter(
-      (file) => file.filename.endsWith('.svg') && file.status !== 'removed'
-    )
-    .map((file) => file.filename);
+  const svgChanges = files.filter(
+    (file) => file.filename.endsWith('.svg') && file.status !== 'removed'
+  );
+  const changedSvgs = svgChanges.map((file) => file.filename);
 
   const commitMessages = changes.commits.map((commit) => commit.commit.message);
   const changeList = commitMessages.map((message) => `- ${message}`).join('\n');
-  const releaseNotes = buildRelaseNotes(changeList, changedSvgs.length > 0);
+
+  const changedEmojis = changedSvgs.map((filePath) => ({
+    name: filePath.slice(filePath.lastIndexOf('/')).replace('.svg', ''),
+    change: svgChanges.some(
+      (change) => change.filename === filePath && change.status === 'added'
+    )
+      ? ChangeType.added
+      : ChangeType.updated,
+  }));
+
+  const releaseNotes = buildRelaseNotes(changeList, changedEmojis);
   setOutput('releaseNotes', releaseNotes);
 
   if (!changedSvgs.length) {
