@@ -35,6 +35,8 @@ const buildRelaseNotes = (changeList: string, changedEmojis: EmojiChange[]) => `
 ${
   changedEmojis.length
     ? `
+![A grid of the emojis that were new or updated in this release](${previewUrl})
+  
 ### New
 
 ${changedEmojis
@@ -48,8 +50,6 @@ ${changedEmojis
   .filter(({ change }) => change === ChangeType.updated)
   .map(({ name }) => `- \`${name}\``)
   .join('\n')}
-
-![A grid of the emojis that were new or updated in this release](${previewUrl})
 `
     : 'None.'
 }
