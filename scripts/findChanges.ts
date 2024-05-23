@@ -45,9 +45,21 @@ ${changeList}
 ${
   changedEmojis.length
     ? `
-${changedEmojis.map(({ name, change }) => `- ${change}: ${name}`).join('\n')}
+### New
 
-![A grid of emojis that were changed in this release](${previewUrl})
+${changedEmojis
+  .filter(({ change }) => change === ChangeType.added)
+  .map(({ name }) => `- ${name}`)
+  .join('\n')}
+
+### Updated
+
+${changedEmojis
+  .filter(({ change }) => change === ChangeType.updated)
+  .map(({ name }) => `- ${name}`)
+  .join('\n')}
+
+![A grid of the emojis that were new or updated in this release](${previewUrl})
 `
     : 'None.'
 }`;
@@ -85,7 +97,7 @@ const run = async () => {
   const changeList = commitMessages.map((message) => `- ${message}`).join('\n');
 
   const changedEmojis = changedSvgs.map((filePath) => ({
-    name: filePath.slice(filePath.lastIndexOf('/')).replace('.svg', ''),
+    name: filePath.slice(filePath.lastIndexOf('/') + 1).replace('.svg', ''),
     change: svgChanges.some(
       (change) => change.filename === filePath && change.status === 'added'
     )
