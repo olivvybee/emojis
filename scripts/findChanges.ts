@@ -2,6 +2,7 @@ import path from 'path';
 import fs from 'fs';
 
 import { getOctokit, context } from '@actions/github';
+import { setOutput } from '@actions/core';
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 if (!GITHUB_TOKEN) {
@@ -24,6 +25,7 @@ const run = async () => {
   );
   if (!nonPrereleaseReleases.length) {
     console.log('No non-prerelease releases found to compare against.');
+    setOutput('hasSvgChanges', false);
     return;
   }
   const previousTag = nonPrereleaseReleases[0].tag_name;
@@ -43,6 +45,7 @@ const run = async () => {
 
   if (!changedSvgs.length) {
     console.log('No changes to SVGs found since previous release.');
+    setOutput('hasSvgChanges', false);
     return;
   }
 
@@ -59,6 +62,8 @@ const run = async () => {
     const destPath = path.join(changesDir, filename);
     fs.copyFileSync(srcPath, destPath);
   });
+
+  setOutput('hasSvgChanges', true);
 };
 
 run();

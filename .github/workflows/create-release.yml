@@ -21,6 +21,7 @@ jobs:
         run: npm install
 
       - name: Find changes
+        id: find-changes
         run: npm run find-changes
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -28,6 +29,10 @@ jobs:
 
       - name: Generate PNGs
         run: npm run generate-pngs
+
+      - name: Generate preview
+        run: npm run generate-preview
+        if: ${{ steps.find-changes.outputs.hasSvgChanges == 'true' }}
 
       - name: Create tar archives
         run: npm run create-tars
