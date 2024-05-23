@@ -109,6 +109,13 @@ const run = async () => {
       : ChangeType.updated,
   }));
 
+  console.log('Changed emojis:');
+  console.log(
+    changedEmojis
+      .map((change) => `${change.name} (${change.change})`)
+      .join('\n')
+  );
+
   const releaseNotes = buildRelaseNotes(changeList, changedEmojis);
   setOutput('releaseNotes', releaseNotes);
 
