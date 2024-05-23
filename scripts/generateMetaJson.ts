@@ -25,13 +25,16 @@ directories.forEach((directory) => {
 
   const emojis = filenames.map((filename) => {
     const name = filename.replace('.png', '');
+    const category = name.includes('_')
+      ? name.slice(0, name.indexOf('_'))
+      : name;
 
     return {
       downloaded: true,
       fileName: filename,
       emoji: {
         name,
-        category: directory,
+        category,
         aliases: [],
       },
     };
