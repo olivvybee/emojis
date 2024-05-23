@@ -46,10 +46,10 @@ jobs:
       - name: Create zip archives
         run: npm run create-zips
 
-      # - name: Create release
-      #   uses: softprops/action-gh-release@v2
-      #   with:
-      #     files: |
-      #       tar/**
-      #       zip/**
-      #       preview.png
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            tar/**
+            zip/**
+            preview.png
