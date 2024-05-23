@@ -19,8 +19,14 @@ const run = async () => {
   const { data: releases } = await octokit.rest.repos.listReleases({
     ...context.repo,
   });
-  const latestRelease = releases[0];
-  const previousTag = latestRelease.tag_name;
+  const nonPrereleaseReleases = releases.filter(
+    (release) => !release.prerelease
+  );
+  if (!nonPrereleaseReleases.length) {
+    console.log('No non-prerelease releases found to compare against.');
+    return;
+  }
+  const previousTag = nonPrereleaseReleases[0].tag_name;
 
   const { data: changes } = await octokit.rest.repos.compareCommits({
     ...context.repo,
@@ -35,11 +41,16 @@ const run = async () => {
     )
     .map((file) => file.filename);
 
+  if (!changedSvgs.length) {
+    console.log('No changes to SVGs found since previous release.');
+    return;
+  }
+
   const normalisedRef = GITHUB_REF.replace('refs/tags/', '')
     .split('/')
     .join('-');
+
   const changesDir = path.resolve('.', `updates-${normalisedRef}`);
-  console.log(changesDir);
   fs.mkdirSync(changesDir, { recursive: true });
 
   changedSvgs.forEach((filePath) => {
