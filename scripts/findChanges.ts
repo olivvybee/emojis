@@ -30,16 +30,6 @@ interface EmojiChange {
 }
 
 const buildRelaseNotes = (changeList: string, changedEmojis: EmojiChange[]) => `
-<details>
-<summary>
-<h2>Changes in this release</h2>
-</summary>
-
-${changeList}
-</details>
-
-*See the [README](${repoUrl}) for usage instructions.*
-
 ## New and updated emojis in this release
 
 ${
@@ -49,20 +39,31 @@ ${
 
 ${changedEmojis
   .filter(({ change }) => change === ChangeType.added)
-  .map(({ name }) => `- ${name}`)
+  .map(({ name }) => `- \`${name}\``)
   .join('\n')}
 
 ### Updated
 
 ${changedEmojis
   .filter(({ change }) => change === ChangeType.updated)
-  .map(({ name }) => `- ${name}`)
+  .map(({ name }) => `- \`${name}\``)
   .join('\n')}
 
 ![A grid of the emojis that were new or updated in this release](${previewUrl})
 `
     : 'None.'
-}`;
+}
+
+*See the [README](${repoUrl}) for usage instructions.*
+
+<details>
+<summary>
+<h2>All changes in this release</h2>
+</summary>
+
+${changeList}
+</details>
+`;
 
 const run = async () => {
   const octokit = getOctokit(GITHUB_TOKEN);
