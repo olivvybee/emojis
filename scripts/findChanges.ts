@@ -95,7 +95,9 @@ const run = async () => {
   const changedSvgs = svgChanges.map((file) => file.filename);
 
   const commitMessages = changes.commits.map((commit) => commit.commit.message);
-  const changeList = commitMessages.map((message) => `- ${message}`).join('\n');
+  const changeList = commitMessages
+    .map((message) => `- ${message.split('\n')[0]}`)
+    .join('\n');
 
   const changedEmojis = changedSvgs.map((filePath) => ({
     name: filePath.slice(filePath.lastIndexOf('/') + 1).replace('.svg', ''),
