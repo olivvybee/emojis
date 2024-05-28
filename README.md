@@ -2,14 +2,6 @@
 
 This repo contains the source SVG files for all my emoji packs.
 
-All the emojis here are licensed
-[CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/), and the code
-in this repository is licensed under the
-[MIT license](https://opensource.org/license/mit).
-
-Neofox, Neocat, and BunHD, which are used in this repo and inspired the design
-of the emojis, were all created by [Volpeon](https://volpeon.ink/emojis/).
-
 ## Emoji packs
 
 ### Blobbee
@@ -106,3 +98,14 @@ the entire archive at once.
 2. In the custom emoji area of your instance, import the `.zip`.
 
 The emojis will be categorised automatically.
+
+## Licensing
+
+Unless otherwise stated, all emojis and parts of emojis were created by me and released here under the [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
+
+The code in this repo used to package the emojis is licensed under the [MIT license](https://opensource.org/license/mit). 
+
+- [Neocat by volpeon](https://volpeon.ink/emojis/neocat/) is used under the CC-BY-NC-SA license
+- [Neofox by volpeon](https://volpeon.ink/emojis/neofox/) is used under the CC-BY-NC-SA license
+- [BunHD by volpeon](https://volpeon.ink/emojis/bunhd/) is used under the CC-BY-NC-SA license
+- The [twemoji mouse emoji](https://commons.wikimedia.org/wiki/File:Twemoji_1f401.svg) has been used and modified under the CC-BY license
