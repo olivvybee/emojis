@@ -51,6 +51,13 @@ and started with `fox_plead_collar` based on
 
 ![A grid of fox emojis making various expressions.](https://github.com/olivvybee/emojis/releases/latest/download/preview-fox.png)
 
+### NeoSSB
+
+NeoSSB was requested by [Ente on fedi](@Erpel@hat-eine.entenbru.st) and is based
+on the [SSB DT 8.12](https://en.wikipedia.org/wiki/SSB_DT_8) light rail system.
+
+![A grid of yellow train emojis making various expressions.](https://github.com/olivvybee/emojis/releases/latest/download/preview-neossb.png)
+
 ## Adding to a fedi instance
 
 A `.zip` file containing 256x256px PNGs of each emoji is available on the
@@ -101,11 +108,19 @@ The emojis will be categorised automatically.
 
 ## Licensing
 
-Unless otherwise stated, all emojis and parts of emojis were created by me and released here under the [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
+Unless otherwise stated, all emojis and parts of emojis were created by me and
+released here under the
+[CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-The code in this repo used to package the emojis is licensed under the [MIT license](https://opensource.org/license/mit). 
+The code in this repo used to package the emojis is licensed under the
+[MIT license](https://opensource.org/license/mit).
 
-- [Neocat by volpeon](https://volpeon.ink/emojis/neocat/) is used under the CC-BY-NC-SA license
-- [Neofox by volpeon](https://volpeon.ink/emojis/neofox/) is used under the CC-BY-NC-SA license
-- [BunHD by volpeon](https://volpeon.ink/emojis/bunhd/) is used under the CC-BY-NC-SA license
-- The [twemoji mouse emoji](https://commons.wikimedia.org/wiki/File:Twemoji_1f401.svg) has been used and modified under the CC-BY license
+- [Neocat by volpeon](https://volpeon.ink/emojis/neocat/) is used under the
+  CC-BY-NC-SA license
+- [Neofox by volpeon](https://volpeon.ink/emojis/neofox/) is used under the
+  CC-BY-NC-SA license
+- [BunHD by volpeon](https://volpeon.ink/emojis/bunhd/) is used under the
+  CC-BY-NC-SA license
+- The
+  [twemoji mouse emoji](https://commons.wikimedia.org/wiki/File:Twemoji_1f401.svg)
+  has been used and modified under the CC-BY license
