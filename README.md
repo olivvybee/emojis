@@ -58,6 +58,14 @@ on the [SSB DT 8.12](https://en.wikipedia.org/wiki/SSB_DT_8) light rail system.
 
 ![A grid of yellow train emojis making various expressions.](https://github.com/olivvybee/emojis/releases/latest/download/preview-neossb.png)
 
+### Misc
+
+The pack called "misc" contains emojis that don't fit in any one specific pack.
+For example `:thought_bubble_close:` can be used with either
+`:blobbee_thought_bubble:` or `:neobread_thought_bubble:`.
+
+![A grid of emojis in the same style as the others.](https://github.com/olivvybee/emojis/releases/latest/download/preview-misc.png)
+
 ## Adding to a fedi instance
 
 A `.zip` file containing 256x256px PNGs of each emoji is available on the
