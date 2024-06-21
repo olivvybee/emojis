@@ -132,3 +132,5 @@ The code in this repo used to package the emojis is licensed under the
 - The
   [twemoji mouse emoji](https://commons.wikimedia.org/wiki/File:Twemoji_1f401.svg)
   has been used and modified under the CC-BY license
+- [Neodog by moonrabbits](https://git.gay/moonrabbits/neodog) is used under the
+  CC-BY-NC-SA license
