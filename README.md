@@ -42,6 +42,14 @@ are just a few additions I made while creating the other sets.
 
 ![A grid of fox emojis making various expressions.](https://github.com/olivvybee/emojis/releases/latest/download/preview-neofox.png)
 
+### Neodog
+
+Neodog was orignally created by
+[moonrabbits](https://git.gay/moonrabbits/neodog). These are some additions of
+mine, the same as for neocat and neofox.
+
+![A grid of dog emojis making various expressions.](https://github.com/olivvybee/emojis/releases/latest/download/preview-neodog.png)
+
 ### Fox
 
 Fox is based on the
