@@ -30,7 +30,34 @@ interface EmojiChange {
   change: ChangeType;
 }
 
-const buildRelaseNotes = (changeList: string, changedEmojis: EmojiChange[]) => `
+const buildRelaseNotes = (changeList: string, changedEmojis: EmojiChange[]) => {
+  const newEmojis = changedEmojis
+    .filter(({ change }) => change === ChangeType.added)
+    .map(({ name }) => `- \`${name}\``)
+    .join('\n');
+
+  const newSection = newEmojis.length
+    ? `
+  ### New
+  
+  ${newEmojis}
+  `
+    : '';
+
+  const updatedEmojis = changedEmojis
+    .filter(({ change }) => change === ChangeType.updated)
+    .map(({ name }) => `- \`${name}\``)
+    .join('\n');
+
+  const updatedSection = updatedEmojis.length
+    ? `
+  ### Updated
+  
+  ${updatedEmojis}
+  `
+    : '';
+
+  return `
 ## New and updated emojis in this release
 
 ${
@@ -38,19 +65,9 @@ ${
     ? `
 ![A grid of the emojis that were new or updated in this release](${previewUrl})
   
-### New
+${newSection}
 
-${changedEmojis
-  .filter(({ change }) => change === ChangeType.added)
-  .map(({ name }) => `- \`${name}\``)
-  .join('\n')}
-
-### Updated
-
-${changedEmojis
-  .filter(({ change }) => change === ChangeType.updated)
-  .map(({ name }) => `- \`${name}\``)
-  .join('\n')}
+${updatedSection}
 `
     : 'None.'
 }
@@ -65,6 +82,7 @@ ${changedEmojis
 ${changeList}
 </details>
 `;
+};
 
 const run = async () => {
   const octokit = getOctokit(GITHUB_TOKEN);
