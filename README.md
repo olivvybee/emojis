@@ -128,5 +128,7 @@ The code in this repo used to package the emojis is licensed under the
   has been used and modified under the CC-BY license
 - [Neodog by moonrabbits](https://git.gay/moonrabbits/neodog) is used under the
   CC-BY-NC-SA license
-- [Neomouse by wep](https://akko.eepy.zone/users/wep) is used under the
+- [Neomouse by wep](https://git.gay/av70/neomouse) is used under the CC-BY-NC-SA
+  license
+- [Neobot by symtrkl](https://github.com/SymTrkl/emoji) is used under the
   CC-BY-NC-SA license
