@@ -28,27 +28,13 @@ also inspired by [a fedi post](https://meow.woem.cat/notes/9tkftowim4l7k08p).
 
 ![A grid of red and black train emojis making various expressions.](https://github.com/olivvybee/emojis/releases/latest/download/preview-neoDLR.png)
 
-### Neocat
+### Neofriends
 
-Neocat was originally created by [Volpeon](https://volpeon.ink/emojis/). These
-are just a few additions I made while creating the other sets.
+The neofriends pack contains all the additions I've made to other emoji packs,
+mostly adding hug emojis. See the [credits section](#credits) for details about
+where these packs come from.
 
-![A grid of cat emojis making various expressions.](https://github.com/olivvybee/emojis/releases/latest/download/preview-neocat.png)
-
-### Neofox
-
-Neofox was originally created by [Volpeon](https://volpeon.ink/emojis/). These
-are just a few additions I made while creating the other sets.
-
-![A grid of fox emojis making various expressions.](https://github.com/olivvybee/emojis/releases/latest/download/preview-neofox.png)
-
-### Neodog
-
-Neodog was orignally created by
-[moonrabbits](https://git.gay/moonrabbits/neodog). These are some additions of
-mine, the same as for neocat and neofox.
-
-![A grid of dog emojis making various expressions.](https://github.com/olivvybee/emojis/releases/latest/download/preview-neodog.png)
+![A grid of cat, fox, dog, and mouse emojis mostly hugging bees, bread, and the DLR.](https://github.com/olivvybee/emojis/releases/latest/download/preview-neofriends.png)
 
 ### Fox
 
@@ -122,7 +108,7 @@ the entire archive at once.
 
 The emojis will be categorised automatically.
 
-## Licensing
+## Credits
 
 Unless otherwise stated, all emojis and parts of emojis were created by me and
 released here under the
