@@ -11,7 +11,8 @@ ET.register_namespace('', "http://www.w3.org/2000/svg")
 
 dlr = ET.parse("./neoDLR/neoDLR_blep.svg")
 tongue = dlr.find(".//{http://www.w3.org/2000/svg}g/*[@id='tongue_mover']")
-# os.mkdir("temp")
+
+os.mkdir("temp")
 for offset in range(0, 10):
     tongue.set("transform", f"translate(0 {offset*-32})")
     dlr.write(f"temp/temp.svg")
