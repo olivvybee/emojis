@@ -37,11 +37,10 @@ const buildRelaseNotes = (changeList: string, changedEmojis: EmojiChange[]) => {
     .join('\n');
 
   const newSection = newEmojis.length
-    ? `
-  ### New
-  
-  ${newEmojis}
-  `
+    ? `### New
+
+${newEmojis}
+`
     : '';
 
   const updatedEmojis = changedEmojis
@@ -50,11 +49,10 @@ const buildRelaseNotes = (changeList: string, changedEmojis: EmojiChange[]) => {
     .join('\n');
 
   const updatedSection = updatedEmojis.length
-    ? `
-  ### Updated
-  
-  ${updatedEmojis}
-  `
+    ? `### Updated
+
+${updatedEmojis}
+`
     : '';
 
   return `
@@ -62,8 +60,7 @@ const buildRelaseNotes = (changeList: string, changedEmojis: EmojiChange[]) => {
 
 ${
   changedEmojis.length
-    ? `
-![A grid of the emojis that were new or updated in this release](${previewUrl})
+    ? `![A grid of the emojis that were new or updated in this release](${previewUrl})
   
 ${newSection}
 
