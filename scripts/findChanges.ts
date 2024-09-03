@@ -30,7 +30,16 @@ interface EmojiChange {
   change: ChangeType;
 }
 
-const buildRelaseNotes = (changeList: string, changedEmojis: EmojiChange[]) => {
+interface Author {
+  login: string;
+  html_url: string;
+}
+
+const buildRelaseNotes = (
+  changeList: string,
+  changedEmojis: EmojiChange[],
+  contributors: Author[]
+) => {
   const newEmojis = changedEmojis
     .filter(({ change }) => change === ChangeType.added)
     .map(({ name }) => `- \`${name}\``)
@@ -55,6 +64,22 @@ ${updatedEmojis}
 `
     : '';
 
+  const contributorList = contributors.length
+    ? contributors
+        .map(
+          (contributor) => `- [${contributor.login}](${contributor.html_url})`
+        )
+        .join('\n')
+    : '';
+  const contributorsSection = contributors.length
+    ? `
+## Contributors to this release
+
+${contributorList}
+
+`
+    : '';
+
   return `
 ## New and updated emojis in this release
 
@@ -68,9 +93,9 @@ ${updatedSection}
 `
     : 'None.'
 }
-
 *See the [README](${repoUrl}) for usage instructions.*
 
+${contributorsSection}
 <details>
 <summary>
 <h2>All changes in this release</h2>
@@ -124,14 +149,23 @@ const run = async () => {
       : ChangeType.updated,
   }));
 
-  console.log('Changed emojis:');
-  console.log(
-    changedEmojis
-      .map((change) => `${change.name} (${change.change})`)
-      .join('\n')
-  );
+  const contributors = changes.commits
+    .flatMap((commit) => commit.author)
+    .filter((author) => !!author)
+    .filter((author) => author.login !== 'olivvybee')
+    .reduce((unique, current) => {
+      if (unique.find((item) => item.login === current.login)) {
+        return unique;
+      }
 
-  const releaseNotes = buildRelaseNotes(changeList, changedEmojis);
+      return [...unique, current];
+    }, [] as Author[]);
+
+  const releaseNotes = buildRelaseNotes(
+    changeList,
+    changedEmojis,
+    contributors
+  );
   setOutput('releaseNotes', releaseNotes);
 
   if (!changedSvgs.length) {
