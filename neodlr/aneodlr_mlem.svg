@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0" viewBox="0 0 2048 2048">
+  <defs>
+    <clipPath id="tongue_clip">
+      <path d="m 645,1469v 210l 193,15V 1475L 729,1365Z" />
+    </clipPath>
+  </defs>
+  <rect id="aneoDLR_mlem" x="0" y="0" width="2048" height="2048" fill="none"/>
+  <path id="outline" d="M48 1730s1-383 6-453l20-280c5-77 54-398 54-398l1-2s45-263 82-360c29-78 73-112 110-129 59-28 113-17 135-10l34 9 901-56c27-16 57-24 86-26 38-3 73 7 90 12l398 110c52 14 88 61 88 115l1 1499c0 51-31 96-78 113 0 0-276 102-398 138-77 23-133 9-174-13-70-39-98-119-108-157l-512-35c-92 34-320 118-439 153-90 27-152 9-195-19-44-28-72-71-86-114-15-43-16-85-16-97ZM478 228l-57-15s-64-26-98 66c-34 91-76 338-76 338s-48 314-54 388l-19 280c-5 69-6 446-6 446s-5 158 143 114c129-38 391-135 455-159l640 43 5 78s13 126 132 90c120-36 391-136 391-136l-1-1499-400-110s-63-25-95 17Z"/>
+  <path id="right_panel" fill="#e03333" d="m482 229-61-16s-64-26-98 66c-34 91-76 338-76 338s-48 314-54 388l-19 280c-5 69-6 446-6 446s-5 158 143 114 469-164 469-164L661 217Z"/>
+  <path id="front_panel" fill="#343128" d="M 1438,167 423,230c 0,0 -38,3 -50,45 -11,42 -81,472 -102,589 -52,283 -39,788 -39,788l 1182,79z"/>
+  <path id="left_panel" fill="#e03333" d="M1934 262v1499s-271 100-391 136c-119 36-132-90-132-90s-36-571-34-797 24-597 24-597 6-107 21-203c15-97 111-58 111-58Z"/>
+  <path id="right_window" fill="#a7e3f4" d="M370 479s-88 392-95 684c38 2 244 3 244 3s11-280 79-694c-21-3-228 7-228 7Z"/>
+  <path id="middle_window" fill="#a7e3f4" d="M716 465s-61 420-69 712c39 2 257 3 257 3s7-310 59-726c-21-2-247 11-247 11Z"/>
+  <path id="left_window" fill="#a7e3f4" d="M1089 445s-48 448-55 740c38 2 290 5 290 5s9-348 37-752c-21-3-272 7-272 7Z"/>
+  <path id="left_eye" d="M1263 999v42a81 81 0 0 1-161 0v-42a81 81 0 0 1 161 0Z"/>
+  <path id="right_eye" d="M482 999v42a81 81 0 0 1-161 0v-42a81 81 0 0 1 161 0Z"/>
+  <g clip-path="url(#tongue_clip)">
+    <g id="tongue_mover">
+      <path id="tongue" fill="none" stroke="#0006a0" stroke-linecap="round" stroke-width="150" d="M730 1600v-200">
+      </path>
+      <text fill="#ffffff" dominant-baseline="middle" font-size="96" font-family="Arial">
+        <textPath href="#tongue">DLR</textPath>
+      </text>
+      <animateTransform 
+        attributeName="transform"
+        type="translate"
+        values="0,0; 0,0; 0,-320; 0,-320; 0,0; 0,0"
+        keyTimes="0.0; 0.1; 0.4; 0.6; 0.9; 1.0"
+        dur="2s"
+        repeatCount="indefinite"
+      />        
+    </g>
+  </g>
+  <path id="mouth" fill="none" stroke="#05aca8" stroke-linecap="round" stroke-linejoin="round" stroke-width="72" d="m533 1310 82 139 111-139 138 138 164-138"/>
+</svg>
