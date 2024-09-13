@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="2.0" viewBox="0 0 2048 2048">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2048 2048">
   <defs>
     <clipPath id="tongue_clip">
       <path d="m 645,1469v 210l 193,15V 1475L 729,1365Z" />
