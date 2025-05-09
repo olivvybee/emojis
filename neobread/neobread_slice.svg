@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="neobread" x="0" y="0" width="256" height="256" style="fill:none;"/>
+    <g id="neobread1" serif:id="neobread">
+        <path id="Crust" d="M140.7 26.9a54.8 54.8 0 0 1 43 88.7v84.9A28.7 28.7 0 0 1 155 229H48.8A28.7 28.7 0 0 1 20 200.5v-85.2a54.8 54.8 0 0 1 43.1-88.4Z" style="fill:#d1a084;stroke:#000;stroke-width:15px"/>
+        <rect id="Shadow" width="15.9" height="15.2" x="160.3" y="119" fill="#ba856d" />
+        <path id="Slice" d="M42 112.7a38 38 0 0 1 23.7-68h70a38.1 38.1 0 0 1 24.5 67.3v84.7a15 15 0 0 1-14.9 15H56.9a15 15 0 0 1-14.9-15v-84Z" style="fill:rgb(252,233,186);"/>
+        <g id="Face">
+            <path id="Mouth" d="M65.596,155.72L76.372,173.837L90.892,155.752L108.879,173.787L130.306,155.773" style="fill:none;stroke:black;stroke-width:10px;"/>
+            <g id="Eyes">
+                <path id="Right-eye" serif:id="Right eye" d="M143.057,111.742L143.057,119.688C143.057,128.036 136.28,134.813 127.933,134.813C119.586,134.813 112.809,128.036 112.809,119.688L112.809,111.742C112.809,103.395 119.586,96.618 127.933,96.618C136.28,96.618 143.057,103.395 143.057,111.742Z"/>
+                <path id="Left-eye" serif:id="Left eye" d="M82.953,111.678L82.953,119.624C82.953,127.971 76.176,134.748 67.828,134.748C59.481,134.748 52.704,127.971 52.704,119.624L52.704,111.678C52.704,103.331 59.481,96.554 67.828,96.554C76.176,96.554 82.953,103.331 82.953,111.678Z"/>
+            </g>
+        </g>
+    </g>
+</svg>
