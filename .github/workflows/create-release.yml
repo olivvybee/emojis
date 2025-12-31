@@ -2,7 +2,7 @@ name: Create Release
 on:
   push:
     tags:
-      - '*'
+      - "*"
 
 jobs:
   create-release:
@@ -54,3 +54,24 @@ jobs:
             tar/**
             zip/**
             previews/**
+
+      - name: Upload to github pages
+        id: upload
+        uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
+        with:
+          path: png/
+
+  deploy:
+    needs: create-release
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
+
