@@ -9,7 +9,8 @@
     "create-zips": "./scripts/create-zip-archives.sh",
     "generate-meta": "tsx ./scripts/generateMetaJson.ts",
     "find-changes": "tsx ./scripts/findChanges.ts",
-    "generate-previews": "tsx ./scripts/generatePreviews.ts"
+    "generate-previews": "tsx ./scripts/generatePreviews.ts",
+    "generate-html-indexes": "tsx ./scripts/generateHTMLIndexes/generateHTMLIndexes.ts"
   },
   "license": "MIT",
   "dependencies": {

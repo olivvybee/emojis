@@ -55,6 +55,9 @@ jobs:
             zip/**
             previews/**
 
+      - name: Generate HTML indexes
+        run: npm run generate-html-indexes
+
       - name: Upload to github pages
         id: upload
         uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
