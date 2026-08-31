@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+     <defs>
+          <radialGradient xlink:href="#a" id="brown_gradient" cx="100.2" cy="128.2" r="64.6" fx="100.2" fy="128.2" gradientTransform="matrix(1.73258 0 0 1.2917 -73.4 -37.4)" gradientUnits="userSpaceOnUse">
+               <stop offset="0" stop-color="#db8524"/>
+               <stop offset=".6" stop-color="#db8524" stop-opacity=".8"/>
+               <stop offset="1" stop-color="#db8524" stop-opacity="0"/>
+          </radialGradient>
+          <filter id="blur_filter" width="1.5" height="1.5" x="-.25" y="-0.25">
+               <feGaussianBlur stdDeviation="3"/>
+          </filter>
+     </defs>
+    <rect id="neobread" x="0" y="0" width="256" height="256" style="fill:none;"/>
+    <g id="neobread1" serif:id="neobread">
+        <path id="Crust" d="M140.7 26.9a54.8 54.8 0 0 1 43 88.7v84.9A28.7 28.7 0 0 1 155 229H48.8A28.7 28.7 0 0 1 20 200.5v-85.2a54.8 54.8 0 0 1 43.1-88.4Z" style="fill:#d1a084;stroke:#000;stroke-width:15px"/>
+        <rect id="Shadow" width="15.9" height="15.2" x="160.3" y="119" fill="#ba856d" />
+        <path id="Slice" d="M42 112.7a38 38 0 0 1 23.7-68h70a38.1 38.1 0 0 1 24.5 67.3v84.7a15 15 0 0 1-14.9 15H56.9a15 15 0 0 1-14.9-15v-84Z" style="fill:rgb(252,233,186);"/>
+        <path id="Crunch" fill="url(#brown_gradient)" stroke="none" stroke-linejoin="round" d="M129.4 44.7a9 9 0 0 0-3.3 6.9c-.3 12.8-1.2 28.9-1.8 45.7-.6 18.2-.8 33.2-.3 50.6.3 13.9 1.3 32.6 1.6 41l.5 16.8a9 9 0 0 0 2.4 6h16.8c4 0 7.5-1.6 10.1-4 .2-.7.2-1.4.2-2-.3-8.8-1-17.6-2.2-29-1-11.3-2-21-2.5-31.9-1-20.2.2-36.4.2-36.4A42.6 42.6 0 0 0 161.8 83c1.2-11-1.1-20.5-6.5-25.5a497 497 0 0 0 .2-7 37.2 37.2 0 0 0-19.9-5.8zm-63.7 0a37 37 0 0 0-19.8 5.7v1.2l.2 5.1c-6 4.6-8.8 14.7-7.5 26.3.6 5.5 2.1 11 4.2 15.7 2 4.7 4.6 8.3 7.5 10.5a370.5 370.5 0 0 1-1.6 60.3c-1.1 11.7-1.7 17.4-2.3 25.6a255.6 255.6 0 0 0-.5 11.5c2.6 3.1 6.6 5 11 5h16a9 9 0 0 0 2.5-6c.2-14.5 1-27 1.6-45.7.7-18.1.8-33.2.4-50.6-.3-14.2-1.2-32.3-1.5-40.9l-.5-16.8a9 9 0 0 0-3.3-6.9Zm20.2 0a8.7 8.7 0 0 0-3.3 7c.1 12.7.7 28.8 1.2 45.6.4 18.2.5 33.2.2 50.6-.2 13.9-.9 32.6-1 40.9-.4 10.4-.4 16.8-.4 16.8 0 2.4.9 4.5 2.3 6h31.6a8.6 8.6 0 0 0 2.4-6c-.2-12.8-.8-28.9-1.3-45.7-.4-18.2-.6-33.2-.2-50.5.2-14.3.9-32.3 1.1-41l.4-16.8a9 9 0 0 0-3.3-6.9z" filter="url(#blur_filter)" opacity=".8"/>
+        <g id="Face">
+            <path id="Mouth" d="M65.596,155.72L76.372,173.837L90.892,155.752L108.879,173.787L130.306,155.773" style="fill:none;stroke:black;stroke-width:10px;"/>
+            <g id="Eyes">
+                <path id="Right-eye" serif:id="Right eye" d="M143.057,111.742L143.057,119.688C143.057,128.036 136.28,134.813 127.933,134.813C119.586,134.813 112.809,128.036 112.809,119.688L112.809,111.742C112.809,103.395 119.586,96.618 127.933,96.618C136.28,96.618 143.057,103.395 143.057,111.742Z"/>
+                <path id="Left-eye" serif:id="Left eye" d="M82.953,111.678L82.953,119.624C82.953,127.971 76.176,134.748 67.828,134.748C59.481,134.748 52.704,127.971 52.704,119.624L52.704,111.678C52.704,103.331 59.481,96.554 67.828,96.554C76.176,96.554 82.953,103.331 82.953,111.678Z"/>
+            </g>
+        </g>
+    </g>
+</svg>

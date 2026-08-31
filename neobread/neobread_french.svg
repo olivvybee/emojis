@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="svg1" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" clip-rule="evenodd" version="1.1" viewBox="0 0 256 256">
+  <path id="path18" fill="none" fill-opacity="1" fill-rule="evenodd" stroke="#000" stroke-dasharray="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-opacity="1" stroke-width="30" d="M100 18h-4c-14 0-34 5-47 10-11 4-26 9-26 21 0 11 12 21 26 21 102 0 101 42 133 42 9 0 16-6 16-13 0-16-11-43-41-62l13-6-14-6-5 9a145 145 0 0 0-51-16Z" clip-rule="evenodd"/>
+  <g id="neobread1" display="inline">
+    <path id="Crust" fill="#d1a084" stroke="#000" stroke-width="15" d="M193 27a55 55 0 0 1 43 89v84c0 16-13 29-29 29H49c-16 0-29-13-29-29v-85a55 55 0 0 1 43-88Z"/>
+    <path id="Shadow" fill="#ba856d" d="M122 113h106v15H122z"/>
+    <path id="Slice" fill="#fce9ba" d="M42 113a38 38 0 0 1 24-68h70a38 38 0 0 1 24 67v85c0 8-6 15-15 15H57c-8 0-15-7-15-15z"/>
+    <g id="Face" fill="none" stroke="#000">
+      <path id="Mouth" stroke-width="10" d="m82 190 15-18 18 18"/>
+     <g id="mustache" fill="#000" stroke="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" stroke-width=".6" display="inline" transform="translate(0 4)">
+          <path id="path1" d="M149 132a8 8 0 0 0 0 16l1-1-1-1a4 4 0 0 1 0-9 9 9 0 1 1 0 18c-19 0-22-13-39-13a6 6 0 1 0 0 13c17 0 21 8 39 8a16 16 0 1 0 0-31z"/>
+          <path id="path13" d="M47 132a8 8 0 0 1 0 16l-2-1 2-1a4 4 0 0 0 0-9 9 9 0 0 0 0 18c18 0 21-13 38-13a6 6 0 1 1 0 13c-16 0-21 8-38 8a16 16 0 0 1 0-31z"/>
+     </g>
+      <g id="Eyes-5" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" stroke-width="12" clip-rule="evenodd">
+        <path id="Right-eye-4" d="M110 112c0 9 6 18 15 18s18-7 18-19"/>
+        <path id="Left-eye-8" d="M85 112c0 9-6 18-15 18s-18-7-18-19"/>
+      </g>
+    </g>
+  </g>
+  <g id="beret" fill="maroon" fill-opacity="1" stroke="#000" stroke-dasharray="none" stroke-opacity="1" stroke-width="4.7" transform="translate(12 14) scale(.84816)">
+    <path id="path16" stroke-linecap="butt" stroke-linejoin="round" d="M44 65h165v19H44Z"/>
+    <path id="path14" stroke-linecap="round" d="M100 4c-17 1-41 6-55 12-14 5-32 11-32 24 0 14 14 25 32 25 120 0 118 50 156 50 11 0 19-6 19-15 0-27-26-78-104-94l-16-2Z"/>
+    <path id="path17" stroke-linecap="butt" stroke-linejoin="round" d="m171 12-11 20 27-12Z"/>
+  </g>
+  <g id="wine_arm" fill-rule="evenodd" stroke-miterlimit="1.5" clip-rule="evenodd" transform="rotate(-15 208 263)">
+    <path id="path5" fill="#722f37" fill-opacity=".8" stroke="none" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" stroke-width="1.1" d="M192 141c-2 10-4 22-1 31 4 13 10 15 16 18 5 3 17 3 23 0 6-4 12-5 16-18 3-7 2-18 0-27l-8-2c-5-1-2 3-21 3-18 0-25-5-25-5z" transform="translate(12 14) scale(.84816)"/>
+    <path id="path2" fill="#d3d3d3" fill-opacity=".1" stroke="#000" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" stroke-width="4" d="M177 118s-12 28-6 44c8 23 24 6 24 40 0 26 0 26-8 28-5 1-10 1-10 3h40c0-2-5-2-10-3-8-2-8-2-8-28 0-34 16-17 24-40 6-16-6-44-6-44a20 5 0 0 1-20 4 20 5 0 0 1-20-4z"/>
+    <ellipse id="path3" cx="218.4" cy="122" fill="#d3d3d3" fill-opacity=".1" stroke="#000" stroke-dasharray="none" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1" stroke-width="4.7" rx="23.6" ry="5.4" transform="translate(12 14) scale(.84816)"/>
+    <path id="right_paw" fill="#d1a084" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.3" d="M195 189a14 14 0 1 0 0 29h11c4 0 7-3 7-7v-15c0-4-3-7-7-7z" class="paw outline" paint-order="stroke markers fill"/>
+  </g>
+</svg>
