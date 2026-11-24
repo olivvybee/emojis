@@ -1,4 +1,4 @@
-# Livmojis
+# Emojis
 
 This repo contains the source SVG files for all my emoji packs.
 
@@ -33,6 +33,9 @@ also inspired by [a fedi post](https://meow.woem.cat/notes/9tkftowim4l7k08p).
 The neofriends pack contains all the additions I've made to other emoji packs,
 mostly adding hug emojis. See the [credits section](#credits) for details about
 where these packs come from.
+
+**Due to the licenses of the other emoji packs, the Neofriends pack is licensed
+under [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).**
 
 ![A grid of cat, fox, dog, and mouse emojis mostly hugging bees, bread, and the DLR.](https://github.com/olivvybee/emojis/releases/latest/download/preview-neofriends.png)
 
@@ -108,14 +111,16 @@ the entire archive at once.
 
 The emojis will be categorised automatically.
 
-## Credits
+## License
 
 Unless otherwise stated, all emojis and parts of emojis were created by me and
 released here under the
-[CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).
 
 The code in this repo used to package the emojis is licensed under the
 [MIT license](https://opensource.org/license/mit).
+
+## Credits
 
 - [Neocat by volpeon](https://volpeon.ink/emojis/neocat/) is used under the
   CC-BY-NC-SA license
